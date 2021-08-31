@@ -1,11 +1,27 @@
-/**
- * This file is just a silly example to show everything working in the browser.
- * When you're ready to start on your site, clear the file. Happy hacking!
- **/
+import { Dom, Webcam, Player, Effect } from '../static/BanubaSDK.js'
+import banubaARCloud from './ar-cloud';
+import { BANUBA_CLIENT_TOKEN } from './BanubaClientToken';
 
-import confetti from 'canvas-confetti';
+async function init() {
+  const player = await Player.create({
+    clientToken: BANUBA_CLIENT_TOKEN,
+  })
 
-confetti.create(document.getElementById('canvas'), {
-  resize: true,
-  useWorker: true,
-})({ particleCount: 200, spread: 200 });
+  const wcam = new Webcam({ width: 640, height: 480 })
+
+  player.use(wcam)
+
+  Dom.render(player, "#webar")
+
+  document.querySelector("#reset").addEventListener("click", () => player.clearEffect())
+
+  await banubaARCloud({
+    urlId: '44002e77-8a84-4583-bc26-d02a41f76c38',
+    player: player,
+    effectClass: Effect,
+    container: 'carousel',
+  })
+}
+
+init()
+
