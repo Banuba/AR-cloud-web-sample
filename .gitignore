@@ -2,3 +2,5 @@
 build
 node_modules
 .idea
+src/BanubaClientToken.js
+static/
