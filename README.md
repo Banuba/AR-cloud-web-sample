@@ -1,6 +1,6 @@
 # Banuba Web AR SDK and AR cloud web demo
 
-AR cloud stores AR masks on a server. When the user open the app they download the masks, which are then saved on PC.
+AR cloud stores AR masks on a server. The user opens the application and uses the masks, they are downloaded and then cached on the PC.
 
 ## Requirements
 
