@@ -7,7 +7,7 @@ The sample identify masks caching for users, so that he does not need to downloa
 
 ## Requirements
 
-- The [latest](#obtaining-banuba-sdk-web-ar) Banuba SDK Web AR release
+- The latest Banuba SDK Web AR release
 - Banuba client token (contact sales@banuba.com if you don’t have one)
 - AR cloud urlId  
 - [Nodejs](https://nodejs.org/en/) version 14 or later 
@@ -23,7 +23,7 @@ If you don’t have an urlId yet, contact our support here (https://docs.banuba.
 
 Clone the repository
 
-Put Banuba SDK Web AR [files](#obtaining-banuba-sdk-web-ar) into "static" folder
+Put Banuba SDK Web AR files into "static" folder
 
 ```diff
 arcloud-web/
@@ -37,7 +37,7 @@ arcloud-web/
     ...
 ```
 
-Insert Banuba [client token](#obtaining-banuba-client-token) into `src/BanubaClientToken.js`
+Insert Banuba client token into `src/BanubaClientToken.js`
 
 ```js
 BANUBA_CLIENT_TOKEN = "PUT YOUR CLIENT TOKEN HERE"
