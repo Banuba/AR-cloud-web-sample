@@ -11,7 +11,7 @@ The sample identify masks caching for users, so that he does not need to downloa
 - Banuba client token (contact sales@banuba.com if you don’t have one)
 - AR cloud urlId  
 - [Nodejs](https://nodejs.org/en/) version 14 or later 
-- Browser with support of [WebGL 2.0](https://caniuse.com/#feat=webgl2) (Firefox, Chrome, Edge, safari 15) 
+- Browser with support of [WebGL 2.0](https://caniuse.com/#feat=webgl2) (Firefox, Chrome, Edge, Safari 15) 
 
 ### Obtaining AR cloud urlId
 
