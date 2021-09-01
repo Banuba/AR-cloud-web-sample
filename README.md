@@ -1,32 +1,25 @@
 # Banuba Web AR SDK and AR cloud web demo
 
-AR cloud stores AR masks on a server. The user opens the application and uses the masks, they are downloaded and then cached on the PC.
+AR cloud is a Banuba product, which helps you to optimize traffic usage. It stores AR masks on a web server. This is a sample web app, which gives an idea of how to implement masks storage in your app.
+The sample identify masks caching for users, so that he does not need to download them each time he opens the app.
 
 ## Requirements
 
 - The [latest](#obtaining-banuba-sdk-web-ar) Banuba SDK Web AR release
-- Banuba [client token](#obtaining-banuba-client-token)
+- Banuba client token (contact sales@banuba.com if you don’t have one)
 - AR cloud urlId  
-- [Nodejs](https://nodejs.org/en/) installed
-- Browser with support of [WebGL 2.0](https://caniuse.com/#feat=webgl2)
+- [Nodejs] version 14 or later (https://nodejs.org/en/)installed
+- Browser with support of [WebGL 2.0] (Firefox, Chrome, Edge, safari 15) (https://caniuse.com/#feat=webgl2)
 
 ### Obtaining Banuba SDK Web AR
 
 To get the latest Banuba SDK Web AR release please fill in the [form on banuba.com](https://www.banuba.com/face-filters-sdk) website, or contact us via [info@banuba.com](mailto:info@banuba.com).
 
-### Obtaining Banuba Client token
-
-Banuba Client token is required to get Banuba SDK Web AR working.
-
-Generally it's delivered with Banuba SDK Web AR archive.
-
-To receive a new **trial** client token please fill in the [form on banuba.com](https://www.banuba.com/face-filters-sdk) website, or contact us via [info@banuba.com](mailto:info@banuba.com).
-
 ### Obtaining AR cloud urlId
 
 `urlId` defines the id of your repository, where the effects are stored on Banuba server
 
-If you didn't get urlId, ask support for help
+If you don’t have an urlId yet, contact our support here (https://docs.banuba.com/face-ar-sdk/support)
 
 ## Environment setup and local run
 
