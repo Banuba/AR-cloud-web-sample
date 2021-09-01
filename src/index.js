@@ -16,7 +16,7 @@ async function init() {
   document.querySelector("#reset").addEventListener("click", () => player.clearEffect())
 
   await banubaARCloud({
-    urlId: '44002e77-8a84-4583-bc26-d02a41f76c38',
+    urlId: 'YOUR URL ID',
     player: player,
     effectClass: Effect,
     container: 'carousel',

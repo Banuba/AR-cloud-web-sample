@@ -1,5 +1,7 @@
 # Banuba AR cloud web sample
 
+![alt text](./public/images/prscrn.png)
+
 AR cloud is a Banuba product, which helps you to optimize traffic usage. It stores AR masks on a web server. This is a sample web app, which gives an idea of how to implement masks storage in your app.
 The sample identify masks caching for users, so that he does not need to download them each time he opens the app.
 
@@ -83,7 +85,7 @@ import `banubaARCloud` and initialize alongside `BanubaSDK`
   })
 
   await banubaARCloud({
-    urlId: URL_ID,            // ID of your repository on Banuba server
+    urlId: 'YOUR URL ID',      // ID of your repository on Banuba server
     player: player,           // playr - instance of Player class from BanubaSDK.js 
     effectClass: Effect,      // Effect - class from BanubaSDK.js
     container: 'carousel',    // HTMLElement where effect previews will be loaded
