@@ -5,6 +5,9 @@
 AR cloud is a Banuba product, which helps you to optimize traffic usage. It stores AR masks on a web server. This is a sample web app, which gives an idea of how to implement masks storage in your app.
 The sample identify masks caching for users, so that he does not need to download them each time he opens the app.
 
+**Important**  
+Please use [v0.x](../../tree/v0.x) branch for SDK version 0.x (e.g. v0.38).  
+  
 ## Requirements
 
 - The latest Banuba SDK Web AR release
@@ -17,7 +20,7 @@ The sample identify masks caching for users, so that he does not need to downloa
 
 `urlId` defines the id of your repository, where the effects are stored on Banuba server
 
-If you don’t have an urlId yet, contact our support here (https://docs.banuba.com/face-ar-sdk/support)
+If you don’t have an urlId yet, contact our support here (https://docs.banuba.com/face-ar-sdk-v1/support)
 
 ## Environment setup and local run
 
